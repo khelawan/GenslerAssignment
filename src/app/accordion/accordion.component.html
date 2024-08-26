@@ -1,0 +1,22 @@
+<!-- Accordian code -->
+    <div class="accordion ">
+        <div *ngFor="let category of catogories; let i=index" class="accordion-item">
+            <div (click)="toggle(category)" class="accordion-header row col-12">
+                <i *ngIf="!category.showSubCategories" class="fa fa-plus-square-o col-1 my-auto"></i>
+                <i *ngIf="category.showSubCategories" class="fa fa-minus-square-o col-1 my-auto"></i>
+                <div class="accordion-title col-10 text-start"> {{category.title}}</div>
+            </div>
+
+            <div *ngIf="category.showSubCategories" class="subCategoryContainer">
+                <div *ngFor="let subCategory of category.list" class="py-1 ">
+                    <div class="accordion-subCategory" (click)="subCategorySelect(subCategory)"> {{subCategory}}</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+

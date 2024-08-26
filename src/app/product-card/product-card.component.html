@@ -1,0 +1,19 @@
+ <!-- Product cards and there details -->
+
+ <div *ngIf="loaderFlag" class="text-center mt-5">
+    <div class="spinner-border" >     
+    </div>
+  </div>
+
+<div class="row">
+    <div class="card col-3 " *ngFor="let item of selectedItemList?.itemList">
+        <div class="card-img-top"></div>
+        <div class="card-body">
+            <div class="card-title text-truncate p-0 m-0">{{item.itemName}}</div>
+            <div class="card-price pb-1">
+                Price: {{item.price | currency:'INR'}}
+            </div>
+            <button type="button" (click)="addToCart(item)" class="btn btn-primary text-start">Add to Cart</button>
+        </div>
+    </div>
+</div>

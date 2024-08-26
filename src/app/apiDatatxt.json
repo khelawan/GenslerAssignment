@@ -1,0 +1,269 @@
+{
+	"categories": [
+		{
+			"title": "Electronics",
+			"list": [
+				"Computer",
+				"Phones",
+				"Television"
+			]
+		},
+		{
+			"title": "Home Decor",
+			"list": [
+				"Kitchen",
+				"Dining"
+			]
+		},
+		{
+			"title": "Fashion",
+			"list": [
+				"Tshirts",
+				"Shirts"
+			]
+		},
+		{
+			"title": "Books",
+			"list": [
+				"Mystery",
+				"Non-Fiction"
+			]
+		}
+	],
+	"subCategoryList": [
+		{
+			"category": "Electronics",
+			"subCategory": "Computer",
+			"itemList": [
+				{
+					"itemName": "Lenovo ThinkPad",
+					"price": 42000
+				},
+				{
+					"itemName": "Mac Book Pro",
+					"price": 22000
+				},
+				{
+					"itemName": "Dell",
+					"price": 46000
+				},
+				{
+					"itemName": "HP",
+					"price": 36000
+				}
+			]
+		},
+		{
+			"category": "Electronics",
+			"subCategory": "Phones",
+			"itemList": [
+				{
+					"itemName": "Samsung",
+					"price": 42000
+				},
+				{
+					"itemName": "Iphone",
+					"price": 50000
+				},
+				{
+					"itemName": "OnePlus",
+					"price": 60000
+				},
+				{
+					"itemName": "Motorola",
+					"price": 10000
+				},
+				{
+					"itemName": "Pixel",
+					"price": 12000
+				},
+				{
+					"itemName": "Vivo",
+					"price": 44000
+				},
+				{
+					"itemName": "Oppo",
+					"price": 22000
+				}
+			]
+		},
+		{
+			"category": "Electronics",
+			"subCategory": "Television",
+			"itemList": [
+				{
+					"itemName": "Samsung",
+					"price": 42000
+				},
+				{
+					"itemName": "Sony",
+					"price": 50000
+				},
+				{
+					"itemName": "Oppo",
+					"price": 22000
+				}
+			]
+		},
+		{
+			"category": "Home Decor",
+			"subCategory": "Kitchen",
+			"itemList": [
+				{
+					"itemName": "Bergner",
+					"price": 1200
+				},
+				{
+					"itemName": "Prestige",
+					"price": 200
+				},
+				{
+					"itemName": "Steel cookware",
+					"price": 2200
+				},
+				{
+					"itemName": "Non-stick",
+					"price": 600
+				},
+				{
+					"itemName": "Napkins",
+					"price": 700
+				},
+				{
+					"itemName": "Cookware",
+					"price": 400
+				}
+			]
+		},
+		{
+			"category": "Home Decor",
+			"subCategory": "Dining",
+			"itemList": [
+				{
+					"itemName": "Glasses",
+					"price": 800
+				},
+				{
+					"itemName": "Cutlery",
+					"price": 400
+				},
+				{
+					"itemName": "Bowls",
+					"price": 800
+				},
+				{
+					"itemName": "Plates",
+					"price": 700
+				},
+				{
+					"itemName": "Napkins",
+					"price": 300
+				},
+				{
+					"itemName": "Cookware",
+					"price": 800
+				}
+			]
+		},
+		{
+			"category": "Fashion",
+			"subCategory": "Tshirts",
+			"itemList": [
+				{
+					"itemName": "Tshirts1",
+					"price": 1200
+				},
+				{
+					"itemName": "Tshirts2",
+					"price": 1400
+				},
+				{
+					"itemName": "Tshirts3",
+					"price": 600
+				},
+				{
+					"itemName": "Tshirts4",
+					"price": 700
+				},
+				{
+					"itemName": "Tshirts5",
+					"price": 1500
+				}
+			]
+		},
+		{
+			"category": "Fashion",
+			"subCategory": "Shirts",
+			"itemList": [
+				{
+					"itemName": "Shirt1",
+					"price": 4200
+				},
+				{
+					"itemName": "Shirt2",
+					"price": 400
+				},
+				{
+					"itemName": "Shirt3",
+					"price": 600
+				},
+				{
+					"itemName": "Shirt4",
+					"price": 7100
+				}
+			]
+		},
+		{
+			"category": "Books",
+			"subCategory": "Mystery",
+			"itemList": [
+				{
+					"itemName": "Mystery1",
+					"price": 2200
+				},
+				{
+					"itemName": "Mystery2",
+					"price": 400
+				},
+				{
+					"itemName": "Mystery3",
+					"price": 400
+				},
+				{
+					"itemName": "Mystery4",
+					"price": 1100
+				},
+				{
+					"itemName": "Mystery5",
+					"price": 1500
+				}
+			]
+		},
+		{
+			"category": "Books",
+			"subCategory": "Non-Fiction",
+			"itemList": [
+				{
+					"itemName": "Non-Fiction1",
+					"price": 700
+				},
+				{
+					"itemName": "Non-Fiction2",
+					"price": 600
+				},
+				{
+					"itemName": "Non-Fiction3",
+					"price": 500
+				},
+				{
+					"itemName": "Non-Fiction4",
+					"price": 100
+				},
+				{
+					"itemName": "Non-Fiction5",
+					"price": 250
+				}
+			]
+		}
+	]
+}

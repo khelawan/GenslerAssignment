@@ -1,0 +1,46 @@
+.accordion-title {
+    font-size: 1.5vw;
+    font-weight: 500;
+}
+
+.accordion-subCategory {
+    font-size: 1vw;
+}
+
+.subCategoryContainer {
+    padding-left: 2vw;
+}
+
+.fa {
+    font-size: 1vw;
+    padding: 0;
+    padding-left: 1vw;
+}
+
+.accordion-item {
+    padding: 1vw;
+}
+
+.accordion-subCategory:hover{
+    font-weight: 500;
+    cursor: pointer;
+    color: rgb(34, 84, 159);;
+
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    .accordion-item {
+        padding: 1vw;
+    }
+    .fa {
+        font-size: 1.2vw;
+        padding-left: 2vw;
+    }
+
+    [class*="col-10"] {
+        width: 80%;
+    }
+
+}

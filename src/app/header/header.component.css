@@ -1,0 +1,38 @@
+.wrapper{
+    text-align: center;
+    background-color: rgb(156, 180, 215);
+    font-size: 2.5vw;
+    padding: 1vw;
+}
+
+.cart{
+  font-size: 1.5vw;
+}
+
+
+@media only screen and (max-width: 600px ) { 
+  .container-fluid{    
+    font-size: 4vw;
+}
+    
+  .cart{
+    font-size: 2vw;
+  }   
+}
+
+@media only screen and (min-width: 600px ) and (max-width: 768px ) { 
+  .container-fluid{    
+    font-size: 3vw;
+  }
+    
+  .cart{
+    font-size: 2.5vw;
+  }   
+}
+
+
+
+
+
+
+   
